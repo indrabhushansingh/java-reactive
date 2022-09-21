@@ -164,5 +164,24 @@ Two Patterns
 
 Assembly line analogy is true for Reactive Programming. True assembly line. Items come over time.
 
+Flux (Publisher) -> Subscriber
+
+Java Reactive was introduced in Java 9
+
+There are 3 abstractions-
+- Publisher
+- Subscriber
+- Subscription
+
+Above are interfaces only. We don't use them directly.
+
+What we will use-
+- Flux -> It represents sync/async sequence of 0 or n items
+- Mono -> It represents async sequence of 0 or 1 item
+
+Flux can return 0 or 1 or n items
+Mono can return 0 or 1 items
+
+Completion Event
 
 
